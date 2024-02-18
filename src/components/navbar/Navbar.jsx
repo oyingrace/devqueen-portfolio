@@ -22,6 +22,7 @@ const Navbar = () => {
             <div className="social">
                 <a href="https://twitter.com/devqueenn"  target="_blank" ><img src="/twitter.png" alt="twitter" /></a>
                 <a href="https://t.me/devqueenn"><img src="/telegram.png" alt="telegram"  target="_blank" /></a>
+                <a href="https://wa.me/08112186527"><img src="/whatsapp.png" alt="whatsapp"  target="_blank" /></a>
                 <a href="https://www.linkedin.com/in/odah-grace-2b6039222/"  target="_blank" ><img src="/linkedin.png" alt="linkedln" /></a>
                 <a href="https://discord.com/channels/queenn.eth"><img src="/discord.png" alt="discord"  target="_blank" /></a>
             </div>
