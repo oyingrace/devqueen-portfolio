@@ -5,6 +5,13 @@ import { useRef } from "react";
 const items = [
   {
     id:1,
+    title: "AI Saas Chat, Music, Video Generator",
+    img:"ai.png",
+    desc:"AI App built with Next.js, Prisma and Stripe ",
+    Link: "https://ai-buddyy.vercel.app/",
+  },
+  {
+    id:2,
     title: "Web3 Academy",
     img:"next.png",
     desc:"Konoha Web3 Academy website is built with Next.js, TailwindCss and Framer-motion ",
@@ -12,20 +19,21 @@ const items = [
   },
 
   {
-    id:2,
+    id:3,
+    title: "Blog App",
+    img:"blog.png",
+    desc:" CeeVlog is built with Typescript, Sanity and Tailwind",
+    Link: "https://ceeblog.vercel.app/",
+  },
+
+  {
+    id:4,
     title: "Humanitarian Donation Website",
     img:"unfpa.png",
     desc:" UNPFA Webpage is built with React.js and SASS",
     Link: "https://unpfa.vercel.app/",
   },
 
-  {
-    id:3,
-    title: "Konoha Webpage",
-    img:"konoha.png",
-    desc:"Konoha Webpage is built with Vanilla Javascript",
-    Link: "https://oyingrace.github.io/konoha-web3-academy/",
-  },
 ];
 
 const Single = ({item}) => {
